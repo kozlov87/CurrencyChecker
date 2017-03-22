@@ -1,0 +1,6 @@
+framework module Pods_OkRouble {
+  umbrella header "Pods-OkRouble-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>dataProvider</key>
+	<dict>
+		<key>env</key>
+		<string>store://datatables.org/alltableswithkeys</string>
+		<key>format</key>
+		<string>json</string>
+		<key>domain</key>
+		<string>https://query.yahooapis.com/v1/public/yql</string>
+		<key>table</key>
+		<string>yahoo.finance.xchange</string>
+	</dict>
+	<key>currencies</key>
+	<array>
+		<dict>
+			<key>code</key>
+			<string>USDRUB</string>
+			<key>name</key>
+			<string>Доллар ММВБ</string>
+			<key>image</key>
+			<string>Dollars</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>EURRUB</string>
+			<key>name</key>
+			<string>Евро ММВБ</string>
+			<key>image</key>
+			<string>Euros</string>
+		</dict>
+	</array>
+</dict>
+</plist>

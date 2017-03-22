@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2142DFDC79DC5FC754665757 /* Pods_OkRouble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB596EA873F7B777ADCB60E /* Pods_OkRouble.framework */; };
+		F54D456B1C53D57D00B8078C /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54D456A1C53D57D00B8078C /* CurrencyFormatter.swift */; };
+		F5CB5C181C529A8D00DC826D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CB5C171C529A8D00DC826D /* AppDelegate.swift */; };
+		F5CB5C1A1C529A8D00DC826D /* RateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CB5C191C529A8D00DC826D /* RateViewController.swift */; };
+		F5CB5C1C1C529A8D00DC826D /* SubscribeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CB5C1B1C529A8D00DC826D /* SubscribeViewController.swift */; };
+		F5CB5C1F1C529A8D00DC826D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5CB5C1D1C529A8D00DC826D /* Main.storyboard */; };
+		F5CB5C211C529A8E00DC826D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5CB5C201C529A8E00DC826D /* Assets.xcassets */; };
+		F5CB5C241C529A8E00DC826D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5CB5C221C529A8E00DC826D /* LaunchScreen.storyboard */; };
+		F5CB5C2E1C529D7800DC826D /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CB5C2D1C529D7800DC826D /* CoreDataHelper.swift */; };
+		F5CB5C301C529D8B00DC826D /* exchangeModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = F5CB5C2F1C529D8B00DC826D /* exchangeModel.xcdatamodel */; };
+		F5CB5C351C529DE300DC826D /* Subscription+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CB5C311C529DE300DC826D /* Subscription+CoreDataProperties.swift */; };
+		F5CB5C361C529DE300DC826D /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CB5C321C529DE300DC826D /* Subscription.swift */; };
+		F5CB5C371C529DE300DC826D /* Currency+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CB5C331C529DE300DC826D /* Currency+CoreDataProperties.swift */; };
+		F5CB5C381C529DE300DC826D /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CB5C341C529DE300DC826D /* Currency.swift */; };
+		F5CB5C3A1C529F1200DC826D /* initialValues.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5CB5C391C529F1200DC826D /* initialValues.plist */; };
+		F5CB5C3C1C52A11900DC826D /* CurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CB5C3B1C52A11900DC826D /* CurrencyTableViewCell.swift */; };
+		F5CB5C3E1C52A21200DC826D /* TabBarController+textColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CB5C3D1C52A21200DC826D /* TabBarController+textColor.swift */; };
+		F5CB5C401C52A2F700DC826D /* AddSubscriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CB5C3F1C52A2F700DC826D /* AddSubscriptionViewController.swift */; };
+		F5CB5C421C52EBD000DC826D /* ExchangeBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CB5C411C52EBD000DC826D /* ExchangeBrain.swift */; };
+		F5CB5C4A1C538AFC00DC826D /* OkRoubleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CB5C491C538AFC00DC826D /* OkRoubleTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5CB5C4C1C538AFC00DC826D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5CB5C0C1C529A8D00DC826D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5CB5C131C529A8D00DC826D;
+			remoteInfo = OkRouble;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		235808A880C159F1FB30279B /* Pods-OkRouble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OkRouble.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OkRouble/Pods-OkRouble.debug.xcconfig"; sourceTree = "<group>"; };
+		C2C225FACA1729D5FD5BE390 /* Pods-OkRouble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OkRouble.release.xcconfig"; path = "Pods/Target Support Files/Pods-OkRouble/Pods-OkRouble.release.xcconfig"; sourceTree = "<group>"; };
+		DCB596EA873F7B777ADCB60E /* Pods_OkRouble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OkRouble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54D456A1C53D57D00B8078C /* CurrencyFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
+		F5CB5C141C529A8D00DC826D /* OkRouble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OkRouble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5CB5C171C529A8D00DC826D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5CB5C191C529A8D00DC826D /* RateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateViewController.swift; sourceTree = "<group>"; };
+		F5CB5C1B1C529A8D00DC826D /* SubscribeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeViewController.swift; sourceTree = "<group>"; };
+		F5CB5C1E1C529A8D00DC826D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5CB5C201C529A8E00DC826D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5CB5C231C529A8E00DC826D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5CB5C251C529A8E00DC826D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5CB5C2D1C529D7800DC826D /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		F5CB5C2F1C529D8B00DC826D /* exchangeModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = exchangeModel.xcdatamodel; sourceTree = "<group>"; };
+		F5CB5C311C529DE300DC826D /* Subscription+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Subscription+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F5CB5C321C529DE300DC826D /* Subscription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
+		F5CB5C331C529DE300DC826D /* Currency+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Currency+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F5CB5C341C529DE300DC826D /* Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		F5CB5C391C529F1200DC826D /* initialValues.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = initialValues.plist; sourceTree = "<group>"; };
+		F5CB5C3B1C52A11900DC826D /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewCell.swift; sourceTree = "<group>"; };
+		F5CB5C3D1C52A21200DC826D /* TabBarController+textColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TabBarController+textColor.swift"; sourceTree = "<group>"; };
+		F5CB5C3F1C52A2F700DC826D /* AddSubscriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSubscriptionViewController.swift; sourceTree = "<group>"; };
+		F5CB5C411C52EBD000DC826D /* ExchangeBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExchangeBrain.swift; sourceTree = "<group>"; };
+		F5CB5C471C538AFC00DC826D /* OkRoubleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OkRoubleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5CB5C491C538AFC00DC826D /* OkRoubleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkRoubleTests.swift; sourceTree = "<group>"; };
+		F5CB5C4B1C538AFC00DC826D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5CB5C111C529A8D00DC826D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2142DFDC79DC5FC754665757 /* Pods_OkRouble.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CB5C441C538AFC00DC826D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A881A0562620A1FF8E9CB97F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCB596EA873F7B777ADCB60E /* Pods_OkRouble.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE116FA2780DDCC56246D229 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				235808A880C159F1FB30279B /* Pods-OkRouble.debug.xcconfig */,
+				C2C225FACA1729D5FD5BE390 /* Pods-OkRouble.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F5CB5C0B1C529A8D00DC826D = {
+			isa = PBXGroup;
+			children = (
+				F5CB5C161C529A8D00DC826D /* OkRouble */,
+				F5CB5C481C538AFC00DC826D /* OkRoubleTests */,
+				F5CB5C151C529A8D00DC826D /* Products */,
+				AE116FA2780DDCC56246D229 /* Pods */,
+				A881A0562620A1FF8E9CB97F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F5CB5C151C529A8D00DC826D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5CB5C141C529A8D00DC826D /* OkRouble.app */,
+				F5CB5C471C538AFC00DC826D /* OkRoubleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5CB5C161C529A8D00DC826D /* OkRouble */ = {
+			isa = PBXGroup;
+			children = (
+				F5CB5C2C1C529D6A00DC826D /* DB */,
+				F5CB5C191C529A8D00DC826D /* RateViewController.swift */,
+				F5CB5C3B1C52A11900DC826D /* CurrencyTableViewCell.swift */,
+				F5CB5C1B1C529A8D00DC826D /* SubscribeViewController.swift */,
+				F5CB5C3D1C52A21200DC826D /* TabBarController+textColor.swift */,
+				F5CB5C3F1C52A2F700DC826D /* AddSubscriptionViewController.swift */,
+				F5CB5C2F1C529D8B00DC826D /* exchangeModel.xcdatamodel */,
+				F5CB5C1D1C529A8D00DC826D /* Main.storyboard */,
+				F5CB5C411C52EBD000DC826D /* ExchangeBrain.swift */,
+				F5CB5C2B1C529D1A00DC826D /* Supporting Files */,
+				F54D456A1C53D57D00B8078C /* CurrencyFormatter.swift */,
+			);
+			path = OkRouble;
+			sourceTree = "<group>";
+		};
+		F5CB5C2B1C529D1A00DC826D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5CB5C171C529A8D00DC826D /* AppDelegate.swift */,
+				F5CB5C201C529A8E00DC826D /* Assets.xcassets */,
+				F5CB5C221C529A8E00DC826D /* LaunchScreen.storyboard */,
+				F5CB5C251C529A8E00DC826D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5CB5C2C1C529D6A00DC826D /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				F5CB5C2D1C529D7800DC826D /* CoreDataHelper.swift */,
+				F5CB5C311C529DE300DC826D /* Subscription+CoreDataProperties.swift */,
+				F5CB5C321C529DE300DC826D /* Subscription.swift */,
+				F5CB5C331C529DE300DC826D /* Currency+CoreDataProperties.swift */,
+				F5CB5C341C529DE300DC826D /* Currency.swift */,
+				F5CB5C391C529F1200DC826D /* initialValues.plist */,
+			);
+			name = DB;
+			sourceTree = "<group>";
+		};
+		F5CB5C481C538AFC00DC826D /* OkRoubleTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5CB5C491C538AFC00DC826D /* OkRoubleTests.swift */,
+				F5CB5C4B1C538AFC00DC826D /* Info.plist */,
+			);
+			path = OkRoubleTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5CB5C131C529A8D00DC826D /* OkRouble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5CB5C281C529A8E00DC826D /* Build configuration list for PBXNativeTarget "OkRouble" */;
+			buildPhases = (
+				794ABB2C7EFA983A9FBF65D8 /* [CP] Check Pods Manifest.lock */,
+				F5CB5C101C529A8D00DC826D /* Sources */,
+				F5CB5C111C529A8D00DC826D /* Frameworks */,
+				F5CB5C121C529A8D00DC826D /* Resources */,
+				B387C1664DB938A23B69AFD8 /* [CP] Embed Pods Frameworks */,
+				C3876A7583CFB30074EB4299 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OkRouble;
+			productName = OkRouble;
+			productReference = F5CB5C141C529A8D00DC826D /* OkRouble.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5CB5C461C538AFC00DC826D /* OkRoubleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5CB5C4E1C538AFC00DC826D /* Build configuration list for PBXNativeTarget "OkRoubleTests" */;
+			buildPhases = (
+				F5CB5C431C538AFC00DC826D /* Sources */,
+				F5CB5C441C538AFC00DC826D /* Frameworks */,
+				F5CB5C451C538AFC00DC826D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5CB5C4D1C538AFC00DC826D /* PBXTargetDependency */,
+			);
+			name = OkRoubleTests;
+			productName = OkRoubleTests;
+			productReference = F5CB5C471C538AFC00DC826D /* OkRoubleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5CB5C0C1C529A8D00DC826D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Иван Павлов";
+				TargetAttributes = {
+					F5CB5C131C529A8D00DC826D = {
+						CreatedOnToolsVersion = 7.1.1;
+						LastSwiftMigration = 0830;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					F5CB5C461C538AFC00DC826D = {
+						CreatedOnToolsVersion = 7.1.1;
+						LastSwiftMigration = 0830;
+						TestTargetID = F5CB5C131C529A8D00DC826D;
+					};
+				};
+			};
+			buildConfigurationList = F5CB5C0F1C529A8D00DC826D /* Build configuration list for PBXProject "OkRouble" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5CB5C0B1C529A8D00DC826D;
+			productRefGroup = F5CB5C151C529A8D00DC826D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5CB5C131C529A8D00DC826D /* OkRouble */,
+				F5CB5C461C538AFC00DC826D /* OkRoubleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5CB5C121C529A8D00DC826D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CB5C241C529A8E00DC826D /* LaunchScreen.storyboard in Resources */,
+				F5CB5C211C529A8E00DC826D /* Assets.xcassets in Resources */,
+				F5CB5C1F1C529A8D00DC826D /* Main.storyboard in Resources */,
+				F5CB5C3A1C529F1200DC826D /* initialValues.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CB5C451C538AFC00DC826D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		794ABB2C7EFA983A9FBF65D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B387C1664DB938A23B69AFD8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OkRouble/Pods-OkRouble-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3876A7583CFB30074EB4299 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OkRouble/Pods-OkRouble-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5CB5C101C529A8D00DC826D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CB5C3E1C52A21200DC826D /* TabBarController+textColor.swift in Sources */,
+				F5CB5C381C529DE300DC826D /* Currency.swift in Sources */,
+				F5CB5C1C1C529A8D00DC826D /* SubscribeViewController.swift in Sources */,
+				F5CB5C401C52A2F700DC826D /* AddSubscriptionViewController.swift in Sources */,
+				F5CB5C181C529A8D00DC826D /* AppDelegate.swift in Sources */,
+				F54D456B1C53D57D00B8078C /* CurrencyFormatter.swift in Sources */,
+				F5CB5C351C529DE300DC826D /* Subscription+CoreDataProperties.swift in Sources */,
+				F5CB5C2E1C529D7800DC826D /* CoreDataHelper.swift in Sources */,
+				F5CB5C361C529DE300DC826D /* Subscription.swift in Sources */,
+				F5CB5C1A1C529A8D00DC826D /* RateViewController.swift in Sources */,
+				F5CB5C421C52EBD000DC826D /* ExchangeBrain.swift in Sources */,
+				F5CB5C371C529DE300DC826D /* Currency+CoreDataProperties.swift in Sources */,
+				F5CB5C3C1C52A11900DC826D /* CurrencyTableViewCell.swift in Sources */,
+				F5CB5C301C529D8B00DC826D /* exchangeModel.xcdatamodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CB5C431C538AFC00DC826D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CB5C4A1C538AFC00DC826D /* OkRoubleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5CB5C4D1C538AFC00DC826D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5CB5C131C529A8D00DC826D /* OkRouble */;
+			targetProxy = F5CB5C4C1C538AFC00DC826D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5CB5C1D1C529A8D00DC826D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5CB5C1E1C529A8D00DC826D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5CB5C221C529A8E00DC826D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5CB5C231C529A8E00DC826D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5CB5C261C529A8E00DC826D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5CB5C271C529A8E00DC826D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5CB5C291C529A8E00DC826D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 235808A880C159F1FB30279B /* Pods-OkRouble.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OkRouble/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ivan-pavlov.OkRouble";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F5CB5C2A1C529A8E00DC826D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2C225FACA1729D5FD5BE390 /* Pods-OkRouble.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OkRouble/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ivan-pavlov.OkRouble";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F5CB5C4F1C538AFC00DC826D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OkRoubleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ivan-pavlov.OkRoubleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OkRouble.app/OkRouble";
+			};
+			name = Debug;
+		};
+		F5CB5C501C538AFC00DC826D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OkRoubleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ivan-pavlov.OkRoubleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OkRouble.app/OkRouble";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5CB5C0F1C529A8D00DC826D /* Build configuration list for PBXProject "OkRouble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CB5C261C529A8E00DC826D /* Debug */,
+				F5CB5C271C529A8E00DC826D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5CB5C281C529A8E00DC826D /* Build configuration list for PBXNativeTarget "OkRouble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CB5C291C529A8E00DC826D /* Debug */,
+				F5CB5C2A1C529A8E00DC826D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5CB5C4E1C538AFC00DC826D /* Build configuration list for PBXNativeTarget "OkRoubleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CB5C4F1C538AFC00DC826D /* Debug */,
+				F5CB5C501C538AFC00DC826D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5CB5C0C1C529A8D00DC826D /* Project object */;
+}
